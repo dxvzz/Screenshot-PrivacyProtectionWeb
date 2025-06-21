@@ -10,13 +10,13 @@
 
 </div>
 
----
+
 
 ## 🧠 Introduction
 
 **Screenshot-PrivacyProtectionWeb** is a powerful JavaScript tool that helps developers protect sensitive content from being captured via screenshots or screen recordings. It adds a client-side layer of privacy with zero dependencies, perfect for modern web apps, dashboards, and secure portals.
 
----
+
 
 ## ✨ Key Features
 
@@ -27,11 +27,11 @@
 - 🚫 Disable print and screen capture shortcuts
 - ⚡ Lightweight and dependency-free
 
----
+
 
 ## 📸 Demo Preview
 
-> [🌐 Live Demo - Coming Soon](#)
+> [🌐 Live Demo ](https://privacy-prototype.vercel.app)
 
 Or try out the basic functionality in your own project:
 
@@ -45,7 +45,7 @@ Or try out the basic functionality in your own project:
 </script>
 ```
 
----
+
 
 ## 📦 Installation
 
@@ -61,7 +61,7 @@ Or try out the basic functionality in your own project:
 npm install screenshot-privacy-protect
 ```
 
----
+
 
 ## ⚙️ Usage Guide
 
@@ -89,7 +89,7 @@ PrivacyProtect.enable({
 PrivacyProtect.disable();
 ```
 
----
+
 
 ## ⚙️ Configuration Table
 
@@ -110,7 +110,7 @@ PrivacyProtect.disable();
 └── README.md                 # This file
 ```
 
----
+
 
 ## 🤝 Contribution
 
@@ -120,13 +120,13 @@ Love this idea? Help us improve!
 - Make your improvements
 - Submit a pull request 🙌
 
----
+
 
 ## 📜 License
 
 Released under the [MIT License](LICENSE).
 
----
+
 
 ## 🧡 Credits
 
