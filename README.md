@@ -130,7 +130,7 @@ Released under the [MIT License](LICENSE).
 
 ## 🧡 Credits
 
-Developed by [Devdatta M](https://github.com/dxvzz)  
+Developed by [Devdatta M](https://devdattam.com)  
 Inspired by mobile privacy standards like `FLAG_SECURE` on Android & secure overlays on iOS
 
 ---
