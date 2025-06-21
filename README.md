@@ -1,36 +1,61 @@
-# 🛡️ Screenshot Privacy Protection Webpage
+<div align="center">
+
+<img src="https://img.icons8.com/fluency/96/privacy.png" width="90" alt="Privacy Icon"/>
+
+# 🛡️ Screenshot Privacy Protection Web
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Made with Love](https://img.shields.io/badge/built%20with-%E2%9D%A4%EF%B8%8F%20JavaScript-red?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/built%20with-JavaScript-yellow?style=for-the-badge)
+
+</div>
 
 ---
 
-## 🚀 Overview
+## 🧠 Introduction
 
-**Screenshot-PrivacyProtectionWeb** is a privacy-first, lightweight JavaScript tool that blocks users from taking screenshots or recording sensitive content on your website.
+**Screenshot-PrivacyProtectionWeb** is a powerful JavaScript tool that helps developers protect sensitive content from being captured via screenshots or screen recordings. It adds a client-side layer of privacy with zero dependencies, perfect for modern web apps, dashboards, and secure portals.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- 🔒 Prevents screenshots using CSS & JS techniques
-- 🚫 Blocks screen recording on supported devices
-- 🖼️ Custom watermark overlay support
-- 🧠 Warns users when protection is active
-- ⚡ Pure JavaScript, no dependencies
+- 🔒 Prevent screenshots using CSS tricks & JavaScript
+- 🎥 Deter screen recording with visual overlays
+- 🖼️ Customizable watermark on protected content
+- 🧠 Display alerts when protection is triggered
+- 🚫 Disable print and screen capture shortcuts
+- ⚡ Lightweight and dependency-free
+
+---
+
+## 📸 Demo Preview
+
+> [🌐 Live Demo - Coming Soon](#)
+
+Or try out the basic functionality in your own project:
+
+```html
+<script src="https://unpkg.com/screenshot-privacy-protect/dist/privacy-protect.min.js"></script>
+<script>
+  PrivacyProtect.enable({
+    feedback: true,
+    watermarkText: "🔒 Confidential Area"
+  });
+</script>
+```
 
 ---
 
 ## 📦 Installation
 
-### 🔗 CDN
+### 🔗 Via CDN
 
 ```html
 <script src="https://unpkg.com/screenshot-privacy-protect/dist/privacy-protect.min.js"></script>
 ```
 
-### 🧰 NPM
+### 📦 Via NPM
 
 ```bash
 npm install screenshot-privacy-protect
@@ -38,9 +63,9 @@ npm install screenshot-privacy-protect
 
 ---
 
-## 🛠️ Usage
+## ⚙️ Usage Guide
 
-### Basic Setup
+### Basic Activation
 
 ```html
 <script>
@@ -48,7 +73,7 @@ npm install screenshot-privacy-protect
 </script>
 ```
 
-### With Custom Options
+### With Options
 
 ```js
 PrivacyProtect.enable({
@@ -58,7 +83,7 @@ PrivacyProtect.enable({
 });
 ```
 
-### Disable Protection
+### Turn Off Protection
 
 ```js
 PrivacyProtect.disable();
@@ -66,48 +91,49 @@ PrivacyProtect.disable();
 
 ---
 
-## ⚙️ Configuration Options
+## ⚙️ Configuration Table
 
 | Option           | Type     | Default | Description                                 |
 |------------------|----------|---------|---------------------------------------------|
-| `feedback`       | Boolean  | `true`  | Show overlay warning to user                |
-| `blockPrint`     | Boolean  | `true`  | Disable print screen & Ctrl/⌘+P             |
-| `watermarkText`  | String   | `''`    | Add watermark overlay on protected content  |
+| `feedback`       | Boolean  | `true`  | Display user feedback when blocking         |
+| `blockPrint`     | Boolean  | `true`  | Block keyboard print/capture shortcuts      |
+| `watermarkText`  | String   | `''`    | Overlay custom text on sensitive sections   |
 
 ---
 
-## 🧪 Demo
-
-Test at: [Live Demo](https://privacy-prototype.vercel.app)
-
----
-
-## 📁 Project Structure
+## 📁 File Structure
 
 ```
 📦 Screenshot-PrivacyProtectionWeb
-├── privacy-protect.js
-├── index.html
-└── README.md
+├── privacy-protect.js        # Core script
+├── index.html                # Sample usage
+└── README.md                 # This file
 ```
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contribution
 
-Contributions are welcome!  
-Please fork the repo, create a branch, and submit a PR.
+Love this idea? Help us improve!
+
+- Fork the repo
+- Make your improvements
+- Submit a pull request 🙌
 
 ---
 
-## 📄 License
+## 📜 License
 
 Released under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Credits
+## 🧡 Credits
 
-Built with ❤️ by [@dxvzz](https://github.com/dxvzz)  
-Inspired by mobile privacy techniques like `FLAG_SECURE`
+Developed by [@dxvzz](https://github.com/dxvzz)  
+Inspired by mobile privacy standards like `FLAG_SECURE` on Android & secure overlays on iOS
+
+---
+
+> "Privacy is not a feature. It's a right. Protect it."
 
